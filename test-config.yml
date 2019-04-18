@@ -1,0 +1,6 @@
+schemaVersion: '2.0.0'
+commandTests:
+  - name: "soda installation"
+    command: "soda"
+    args: ["-v"]
+    expectedOutput: ["v4.10.0"]
